@@ -1,2 +1,2 @@
 # password-generator
-Simples python password generator GUI
+Simple password generator GUI powered by Python language
