@@ -51,8 +51,9 @@ class App(Tk):
         help_input = Label(self, text="If you don't input a number, the default size is 8.", font=('Helvetica', 8))
         help_input.grid(row=2, column=0, padx=20, columnspan=3, sticky=EW)
 
-        button = Button(self, text="Generate!", font=15, relief=RIDGE, command=generate)
+        button = Button(self, text="Generate!", font=('Helvetica', 15, 'bold'), relief=GROOVE, command=generate)
         button.grid(row=3, column=0, sticky=EW, columnspan=3, padx=20, pady=20)
+        button.config(background="blue", foreground='white')
 
 
 if __name__ == "__main__":
